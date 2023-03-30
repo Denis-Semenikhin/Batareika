@@ -23,7 +23,7 @@ body {
   border-style: solid;
   width: 25%;
   padding: 20px;
-  margin: 60px;
+  margin: 30px;
   font-family: "Inter", sans-serif;
 }
 .shapka {
@@ -37,8 +37,8 @@ body {
   border-radius: 20%;
 }
 .photo {
-  width: 30%;
-  margin: 50px;
+  width: 23%;
+  margin: 5px;
   border-radius: 10%;
   border: 10px solid rgb(250, 221, 157);
 }
