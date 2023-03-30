@@ -1,23 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Arvo:wght@700&family=Domine:wght@600&family=Inter:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Arvo:wght@700&family=Domine:wght@600&family=Inter:wght@700&display=swap");
 body {
-    margin: 0;
-    padding: 0;
-}
-.orange {background: orange;
-color: black;
-font-family: 'Inter', sans-serif;
-}
-.blok {background: rgb(250, 221, 157);
-border-radius: 10%;
-border: 5px;
-border-style: solid;
-width:25%;
-padding: 20px;
-margin: 20px;
-font-family: 'Inter', sans-serif;
-}
-.shapka {background: rgb(250, 221, 157);
-
+  margin: 0;
+  padding: 0;
+  background-image: url(https://kartinkin.net/uploads/posts/2022-12/1669976210_55-kartinkin-net-p-belii-fon-abstraktsiya-krasivo-57.jpg);
 }
 
-
+.orange {
+  background: orange;
+  color: black;
+  font-family: "Inter", sans-serif;
+}
+.orange-knopki {
+  background: orange;
+  color: black;
+  font-family: "Inter", sans-serif;
+  border-radius: 20%;
+}
+.blok {
+  background: rgb(250, 221, 157);
+  border-radius: 20%;
+  border: 5px;
+  border-style: solid;
+  width: 25%;
+  padding: 20px;
+  margin: 60px;
+  font-family: "Inter", sans-serif;
+}
+.shapka {
+  background: rgb(250, 221, 157);
+  height: 150px;
+}
+.knopki {
+  position: relative;
+  top: -80px;
+  right: -200px;
+  border-radius: 20%;
+}
+.photo {
+  width: 30%;
+  margin: 50px;
+  border-radius: 10%;
+  border: 10px solid rgb(250, 221, 157);
+}
+#zagolovok {
+  position: relative;
+  top: -20px;
+}
+#knopka-tovar {
+  position: relative;
+  top: 110px;
+  float: left;
+}
+.tovar {
+  width: 15%;
+  border-radius: 30%;
+  border: 10px solid rgb(250, 221, 157);
+  float: left;
+}
