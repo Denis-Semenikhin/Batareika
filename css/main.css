@@ -9,6 +9,8 @@ body {
   background: orange;
   color: black;
   font-family: "Inter", sans-serif;
+  text-decoration: none;
+  opacity: 0.8;
 }
 .orange-knopki {
   background: orange;
@@ -18,17 +20,19 @@ body {
 }
 .blok {
   background: rgb(250, 221, 157);
-  border-radius: 20%;
-  border: 5px;
+  border-radius: 30px;
+
   border-style: solid;
   width: 25%;
   padding: 20px;
   margin: 30px;
   font-family: "Inter", sans-serif;
+  opacity: 0.8;
 }
 .shapka {
   background: rgb(250, 221, 157);
   height: 150px;
+  opacity: 0.8;
 }
 .knopki {
   position: relative;
@@ -51,9 +55,11 @@ body {
   top: 110px;
   float: left;
 }
+
 .tovar {
   width: 15%;
   border-radius: 30%;
   border: 10px solid rgb(250, 221, 157);
   float: left;
+  margin: 5px;
 }
