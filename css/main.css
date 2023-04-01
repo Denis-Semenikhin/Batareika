@@ -94,7 +94,6 @@ body {
   text-decoration: none;
   padding: 5px;
 }
-
 .tovar {
   color: #000000;
   height: 280px;
@@ -104,8 +103,8 @@ body {
   float: inherit;
   border: 10px solid rgb(250, 221, 157);
   border-radius: 60px;
-  margin: 80px;
-  margin-top: 30px;
+  margin: 10px;
+  margin-top: 50px;
   float: left;
 }
 .tovar-batareiki {
@@ -120,7 +119,11 @@ body {
   margin: 5px;
   float: left;
 }
-
+.blok-tovari {
+  margin-left: 270px;
+  margin-right: 270px;
+  text-align: center;
+}
 #batareiki {
   background-image: url(https://www.dencodoorstuff.com/wp-content/uploads/2019/01/243-MN1400-HR.jpg);
   background-size: cover;
