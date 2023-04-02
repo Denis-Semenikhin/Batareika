@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-image: url(https://kartinkin.net/uploads/posts/2022-12/1669976210_55-kartinkin-net-p-belii-fon-abstraktsiya-krasivo-57.jpg);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .orange {
@@ -49,6 +50,9 @@ body {
   left: 50px;
   z-index: 1;
 }
+.logo {
+  height: 150px;
+}
 .blok {
   background: rgb(250, 221, 157);
   border-radius: 30px;
@@ -68,7 +72,7 @@ body {
 }
 .knopki {
   position: relative;
-  top: -80px;
+  top: -90px;
   right: -200px;
   border-radius: 20%;
 }
@@ -78,7 +82,7 @@ body {
   border-radius: 10%;
   border: 10px solid rgb(250, 221, 157);
 }
-#zagolovok {
+.zagolovok {
   position: relative;
   top: -20px;
 }
