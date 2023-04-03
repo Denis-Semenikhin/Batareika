@@ -84,6 +84,18 @@ body {
   opacity: 0.8;
   float: left;
 }
+.opisanie__blok--mini {
+  background: rgb(250, 221, 157);
+  border: 0;
+  border-radius: 30px;
+  border-style: solid;
+  width: 30%;
+  padding: 20px;
+  margin: 20px;
+  margin-left: 110px;
+  font-family: "Inter", sans-serif;
+  opacity: 0.8;
+}
 .photo {
   float: left;
 }
