@@ -13,6 +13,7 @@ body {
 }
 .shapka__logo {
   height: 150px;
+  margin-left: 20px;
 }
 .shapka__knopki {
   background: orange;
@@ -49,34 +50,50 @@ body {
   left: 250px;
   z-index: 1;
 }
-.orange {
+.zagolovok {
   background: orange;
-  color: black;
-  font-family: "Inter", sans-serif;
-  text-decoration: none;
   position: relative;
+  top: -20px;
   opacity: 0.8;
   z-index: 0;
 }
-.zagolovok {
-  position: relative;
-  top: -20px;
+.zagolovok__text {
+  color: black;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  margin-left: 100px;
 }
-.blok {
+.conteiner {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.opisanie {
+  height: 350px;
+}
+.opisanie__blok {
   background: rgb(250, 221, 157);
+  border: 0;
   border-radius: 30px;
   border-style: solid;
-  width: 25%;
+  width: 30%;
+  height: 250px;
   padding: 20px;
   margin: 20px;
+  margin-left: 110px;
   font-family: "Inter", sans-serif;
   opacity: 0.8;
+  float: left;
 }
 .photo {
-  width: 23%;
+  float: left;
+}
+.photo__img {
+  width: 22%;
   margin: 5px;
   border-radius: 10%;
-  border: 10px solid rgb(250, 221, 157);
+  border: 5px solid rgb(250, 221, 157);
+  margin-left: 10px;
+  float: left;
 }
 .knopka-tovar {
   background: rgb(250, 221, 157);
