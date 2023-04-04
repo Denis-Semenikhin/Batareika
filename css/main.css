@@ -29,7 +29,7 @@ body {
   padding-bottom: 10px;
   position: relative;
   top: -30px;
-  left: 250px;
+  left: 100px;
   z-index: 1;
 }
 .shapka__knopki--active {
@@ -47,7 +47,7 @@ body {
   position: relative;
   border: black 2px solid;
   top: -30px;
-  left: 250px;
+  left: 100px;
   z-index: 1;
 }
 .zagolovok {
@@ -107,7 +107,21 @@ body {
   margin-left: 10px;
   float: left;
 }
-.knopka-tovar {
+.tovar {
+  color: #000000;
+  height: 260px;
+  width: 260px;
+  text-align: center;
+  line-height: 200px;
+  float: inherit;
+  border: 10px solid rgb(250, 221, 157);
+  border-radius: 60px;
+  margin-right: 10px;
+  margin-top: 50px;
+  float: left;
+}
+
+.tovar__knopka {
   background: rgb(250, 221, 157);
   color: black;
   font-family: "Inter", sans-serif;
@@ -119,20 +133,7 @@ body {
   text-decoration: none;
   padding: 5px;
 }
-.tovar {
-  color: #000000;
-  height: 280px;
-  width: 280px;
-  text-align: center;
-  line-height: 200px;
-  float: inherit;
-  border: 10px solid rgb(250, 221, 157);
-  border-radius: 60px;
-  margin: 10px;
-  margin-top: 50px;
-  float: left;
-}
-.tovar-batareiki {
+.tovar--batareiki {
   color: #000000;
   height: 280px;
   width: 280px;
@@ -144,24 +145,19 @@ body {
   margin: 5px;
   float: left;
 }
-.blok-tovari {
-  margin-left: 270px;
-  margin-right: 270px;
-  text-align: center;
-}
-.tovar--batareiki {
+.tovar__img--batareiki {
   background-image: url(https://www.dencodoorstuff.com/wp-content/uploads/2019/01/243-MN1400-HR.jpg);
   background-size: cover;
 }
-.tovar--igrushki {
+.tovar__img--igrushki {
   background-image: url(https://sun6-20.userapi.com/s/v1/ig2/FLhbxBW-BXgHUp_NXwLAhxkNFCk5ZjZtjwY34yVqmHF0gX4m7uPhNCXaakfDfehsefmikzKUPwNgisnP7s0YkSnW.jpg?size=1365x1365&quality=95&crop=468,0,1365,1365&ava=1);
   background-size: cover;
 }
-.tovar--chasi {
+.tovar__img--chasi {
   background-image: url(https://tehnoteca.ru/img/1597/1596337/stuhrling_228_33452_1.jpg);
   background-size: cover;
 }
-.tovar--hoztovari {
+.tovar__img--hoztovari {
   background-image: url(https://cs.petrovich.ru/image/21572054/original.jpg);
   background-size: cover;
 }
