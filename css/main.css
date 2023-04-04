@@ -15,6 +15,13 @@ body {
   height: 150px;
   margin-left: 20px;
 }
+.shapka__nav {
+  height: 50px;
+  width: 500px;
+  position: relative;
+  top: -45px;
+  right: -250px;
+}
 .shapka__knopki {
   background: orange;
   color: black;
@@ -28,8 +35,6 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   position: relative;
-  top: -30px;
-  left: 100px;
   z-index: 1;
 }
 .shapka__knopki--active {
@@ -46,8 +51,6 @@ body {
   padding-bottom: 10px;
   position: relative;
   border: black 2px solid;
-  top: -30px;
-  left: 100px;
   z-index: 1;
 }
 .zagolovok {
