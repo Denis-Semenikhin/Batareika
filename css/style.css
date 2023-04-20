@@ -138,16 +138,13 @@ body .conteiner .left-nav .left-nav__punkt {
   margin-bottom: 20px;
 }
 body .conteiner .left-nav .left-nav__punkt:hover {
-  width: 300px;
-  height: 100px;
   border-radius: 30px;
   background-color: rgb(250, 221, 157);
   margin-bottom: 20px;
   margin-left: 20px;
+  margin-right: -20px;
 }
 body .conteiner .left-nav .left-nav__punkt--active {
-  width: 300px;
-  height: 100px;
   border-radius: 30px;
   background-color: rgb(250, 221, 157);
   margin-bottom: 20px;

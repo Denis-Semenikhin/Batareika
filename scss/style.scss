@@ -47,16 +47,13 @@ body {
         background-color: rgb(250, 221, 157);
         margin-bottom: 20px;
         &:hover {
-          width: 300px;
-          height: 100px;
           border-radius: 30px;
           background-color: rgb(250, 221, 157);
           margin-bottom: 20px;
           margin-left: 20px;
+          margin-right: -20px;
         }
         &--active {
-          width: 300px;
-          height: 100px;
           border-radius: 30px;
           background-color: rgb(250, 221, 157);
           margin-bottom: 20px;
