@@ -7,8 +7,8 @@ body {
     background: rgb(250, 221, 157);
     height: 150px;
     opacity: 0.8;
-    position: relative;
     z-index: 1;
+    width: 100%;
     .shapka__logo {
       height: 150px;
       margin-left: 20px;
@@ -46,6 +46,7 @@ body {
         border-radius: 30px;
         background-color: rgb(250, 221, 157);
         margin-bottom: 20px;
+
         &:hover {
           border-radius: 30px;
           background-color: rgb(250, 221, 157);
@@ -58,6 +59,7 @@ body {
           background-color: rgb(250, 221, 157);
           margin-bottom: 20px;
           margin-left: 20px;
+          margin-right: -20px;
         }
       }
       .left-nav__img {
@@ -96,7 +98,6 @@ body {
           font-size: 18px;
         }
         .opisanie__photo {
-          float: left;
           width: 60%;
           height: 500px;
           padding-left: 5px;

@@ -97,8 +97,8 @@ body .shapka {
   background: rgb(250, 221, 157);
   height: 150px;
   opacity: 0.8;
-  position: relative;
   z-index: 1;
+  width: 100%;
 }
 body .shapka .shapka__logo {
   height: 150px;
@@ -149,6 +149,7 @@ body .conteiner .left-nav .left-nav__punkt--active {
   background-color: rgb(250, 221, 157);
   margin-bottom: 20px;
   margin-left: 20px;
+  margin-right: -20px;
 }
 body .conteiner .left-nav .left-nav__img {
   border-radius: 50%;
@@ -187,7 +188,6 @@ body .conteiner .content .opisanie .opisanie__text {
   font-size: 18px;
 }
 body .conteiner .content .opisanie .opisanie__photo {
-  float: left;
   width: 60%;
   height: 500px;
   padding-left: 5px;
