@@ -175,7 +175,6 @@ body .conteiner__main {
   padding-left: 40px;
 }
 body .conteiner__main .opisanie {
-  height: 500px;
   position: relative;
   margin-top: 50px;
   float: left;
@@ -186,7 +185,6 @@ body .conteiner__main .opisanie .opisanie__text {
   border-radius: 30px;
   border-style: solid;
   width: 40%;
-  height: 480px;
   padding: 30px;
   font-family: "Inter", sans-serif;
   opacity: 0.8;
@@ -222,7 +220,7 @@ body .conteiner__main .contacts .contacts__text {
   border-style: solid;
   width: 40%;
   height: 480px;
-  padding: 40px;
+  padding: 30px;
   font-family: "Inter", sans-serif;
   opacity: 0.8;
   float: left;
