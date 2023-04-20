@@ -31,121 +31,123 @@ body {
       line-height: 30px;
     }
   }
-  .left-nav {
-    width: 25%;
-    height: 500px;
-    float: left;
-    margin-top: 20px;
-    position: relative;
-    margin-left: 20px;
-    .left-nav__punkt {
-      width: 300px;
-      height: 100px;
-      border-radius: 30px;
-      background-color: rgb(250, 221, 157);
-      margin-bottom: 20px;
-      &:hover {
-        width: 300px;
-        height: 100px;
-        border-radius: 30px;
-        background-color: rgb(250, 221, 157);
-        margin-bottom: 20px;
-        margin-left: 20px;
-      }
-      &--active {
-        width: 300px;
-        height: 100px;
-        border-radius: 30px;
-        background-color: rgb(250, 221, 157);
-        margin-bottom: 20px;
-        margin-left: 20px;
-      }
-    }
-    .left-nav__img {
-      border-radius: 50%;
-      width: 80px;
-      height: 80px;
-      margin: 10px;
-    }
-    .left-nav__text {
-      line-height: 100px;
-      color: #000;
-      font-size: 30px;
-      font-weight: 600;
-      background-color: rgb(250, 221, 157);
-    }
-  }
-  .conteiner__main {
-    max-width: 1170px;
-    width: 73%;
-    height: 1300px;
+  .conteiner {
+    max-width: 1300px;
+    margin: 15px;
     margin: 0 auto;
-    position: relative;
-    float: left;
-    padding-left: 40px;
-    .opisanie {
-      position: relative;
-      margin-top: 50px;
-      float: left;
-      .opisanie__text {
-        background: rgb(250, 221, 157);
-        border: 0;
-        border-radius: 30px;
-        border-style: solid;
-        width: 40%;
+    display: flex;
 
-        padding: 30px;
-        font-family: "Inter", sans-serif;
-        opacity: 0.8;
-        float: left;
-        position: relative;
-        line-height: 30px;
-        font-size: 18px;
-      }
-      .opisanie__photo {
-        float: left;
-        width: 59%;
-        height: 500px;
-        .photo__img {
-          width: 45%;
-          margin: 5px;
-          border-radius: 10%;
-          margin-left: 10px;
-          float: left;
+    .left-nav {
+      width: 25%;
+      margin-top: 20px;
+      position: relative;
+
+      .left-nav__punkt {
+        width: 300px;
+        height: 100px;
+        border-radius: 30px;
+        background-color: rgb(250, 221, 157);
+        margin-bottom: 20px;
+        &:hover {
+          width: 300px;
+          height: 100px;
+          border-radius: 30px;
+          background-color: rgb(250, 221, 157);
+          margin-bottom: 20px;
+          margin-left: 20px;
+        }
+        &--active {
+          width: 300px;
+          height: 100px;
+          border-radius: 30px;
+          background-color: rgb(250, 221, 157);
+          margin-bottom: 20px;
+          margin-left: 20px;
         }
       }
-    }
-    .contacts {
-      height: 350px;
-
-      position: relative;
-      float: left;
-      margin-top: 50px;
-      width: 100%;
-      height: 500px;
-      .contacts__text {
-        background: rgb(250, 221, 157);
-        border: 0;
-        border-radius: 30px;
-        border-style: solid;
-        width: 40%;
-        height: 480px;
-        padding: 30px;
-        font-family: "Inter", sans-serif;
-        opacity: 0.8;
-        float: left;
-        position: relative;
-        line-height: 30px;
-        font-size: 18px;
+      .left-nav__img {
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        margin: 10px;
       }
-      .map {
+      .left-nav__text {
+        line-height: 100px;
+        color: #000;
+        font-size: 30px;
+        font-weight: 600;
+        background-color: rgb(250, 221, 157);
+      }
+    }
+    .content {
+      width: 75%;
+      padding-left: 20px;
+      .opisanie {
+        position: relative;
+        margin-top: 50px;
+
+        display: flex;
+
+        .opisanie__text {
+          background: rgb(250, 221, 157);
+          border: 0;
+          border-radius: 30px;
+          border-style: solid;
+          width: 40%;
+
+          padding: 30px;
+          font-family: "Inter", sans-serif;
+          opacity: 0.8;
+          position: relative;
+          line-height: 30px;
+          font-size: 18px;
+        }
+        .opisanie__photo {
+          float: left;
+          width: 60%;
+          height: 500px;
+          padding-left: 5px;
+
+          .photo__img {
+            width: 48%;
+            margin: 5px;
+            border-radius: 10%;
+            float: left;
+          }
+        }
+      }
+      .contacts {
+        height: 350px;
+
+        position: relative;
         float: left;
-        width: 55%;
-        height: 480px;
-        margin-right: 10px;
-        border-radius: 30px;
-        border: 1px solid #000;
-        overflow: hidden;
+        margin-top: 50px;
+        width: 100%;
+        height: 500px;
+        .contacts__text {
+          background: rgb(250, 221, 157);
+          border: 0;
+          border-radius: 30px;
+          border-style: solid;
+          width: 40%;
+          height: 480px;
+          padding: 30px;
+          font-family: "Inter", sans-serif;
+          opacity: 0.8;
+          float: left;
+          position: relative;
+          line-height: 30px;
+          font-size: 18px;
+        }
+        .map {
+          float: left;
+          width: 55%;
+          height: 480px;
+          margin-right: 10px;
+          border-radius: 30px;
+          border: 1px solid #000;
+          overflow: hidden;
+        }
       }
     }
   }
