@@ -62,13 +62,11 @@ body {
       height: 700px;
       @media (max-width: 1075px) {
         width: 100%;
-        height: 320px;
+        height: 340px;
         padding-left: 50px;
         padding-right: 50px;
       }
       @media (max-width: 360px) {
-        width: 100%;
-        height: 320px;
         padding-left: 0px;
         padding-right: 0px;
       }
