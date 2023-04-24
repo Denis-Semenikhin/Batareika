@@ -116,6 +116,10 @@ body {
           margin-bottom: 20px;
           margin-left: 10px;
           margin-right: -10px;
+          @media (max-width: 1075px) {
+            margin-left: 0;
+            margin-right: 0;
+          }
         }
         &--active {
           border-radius: 30px;
@@ -123,6 +127,10 @@ body {
           margin-bottom: 20px;
           margin-left: 20px;
           margin-right: -20px;
+          @media (max-width: 1075px) {
+            margin-left: 0;
+            margin-right: 0;
+          }
         }
       }
     }
