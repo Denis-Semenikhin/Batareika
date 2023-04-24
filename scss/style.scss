@@ -1,7 +1,6 @@
 @import "clean-style.scss";
 * {
   overflow-x: hidden;
-  border: 1px solid #000;
 }
 body {
   background-image: url(https://kartinkin.net/uploads/posts/2022-12/1669976210_55-kartinkin-net-p-belii-fon-abstraktsiya-krasivo-57.jpg);
@@ -137,9 +136,15 @@ body {
     width: 74%;
     padding-left: 20px;
     margin-left: 10px;
+    @media (max-width: 1075px) {
+      width: 100%;
+    }
+    @media (max-width: 360px) {
+    }
     .opisanie {
       margin-top: 50px;
       display: flex;
+      flex-wrap: wrap;
       flex: 0 1 50%;
       .opisanie__text {
         background: rgb(250, 221, 157);
@@ -154,9 +159,17 @@ body {
         position: relative;
         line-height: 30px;
         font-size: 18px;
+        @media (max-width: 940px) {
+          width: 100%;
+          margin-bottom: 20px;
+        }
       }
       .opisanie__photo {
-        width: 60%;
+        width: 58%;
+        flex-wrap: wrap;
+        @media (max-width: 940px) {
+          width: 100%;
+        }
 
         padding-left: 5px;
         .photo__img {
@@ -164,15 +177,17 @@ body {
           margin: 5px;
           border-radius: 10%;
           float: left;
+          @media (max-width: 570px) {
+            width: 100%;
+          }
         }
       }
     }
     .contacts {
-      height: 350px;
       margin-top: 50px;
       width: 100%;
-      height: 500px;
       display: flex;
+      flex-wrap: wrap;
       flex: 0 1 50%;
       .contacts__text {
         background: rgb(250, 221, 157);
@@ -186,6 +201,9 @@ body {
         opacity: 0.8;
         line-height: 30px;
         font-size: 18px;
+        @media (max-width: 940px) {
+          width: 100%;
+        }
       }
       .map {
         width: 55%;
@@ -194,6 +212,11 @@ body {
         border-radius: 30px;
         border: 1px solid #000;
         overflow: hidden;
+        @media (max-width: 940px) {
+          width: 100%;
+          margin-bottom: 20px;
+          flex-grow: 0;
+        }
       }
     }
   }
