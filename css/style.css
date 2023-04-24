@@ -151,12 +151,10 @@ body .conteiner .left-nav {
   padding-right: 10px;
   height: 700px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1040px) {
   body .conteiner .left-nav {
     width: 100%;
-    margin-top: 20px;
-    padding-right: 10px;
-    height: 300px;
+    height: 500px;
     padding-left: 50px;
     padding-right: 50px;
   }
@@ -167,30 +165,36 @@ body .conteiner .left-nav .left-nav__punkt {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  flex: 0 0 500px;
+  justify-content: center;
 }
 body .conteiner .left-nav .left-nav__punkt .left-nav__img {
   border-radius: 50%;
   width: 80px;
   height: 80px;
-  margin: 10px;
-  margin-left: 150px;
 }
-@media (max-width: 970) {
+@media (max-width: 375px) {
   body .conteiner .left-nav .left-nav__punkt .left-nav__img {
     width: 50px;
     height: 50px;
-    margin: 5px;
+    margin: 20px;
   }
 }
 body .conteiner .left-nav .left-nav__punkt .left-nav__text {
-  line-height: 100px;
+  line-height: 80px;
   color: #000;
   font-size: 30px;
   font-weight: 600;
   background-color: rgb(250, 221, 157);
-  align-items: center;
+}
+@media (max-width: 1120px) {
+  body .conteiner .left-nav .left-nav__punkt .left-nav__text {
+    font-size: 30 px;
+  }
+}
+@media (max-width: 375px) {
+  body .conteiner .left-nav .left-nav__punkt .left-nav__text {
+    font-size: 20px;
+  }
 }
 body .conteiner .left-nav .left-nav__punkt:hover {
   border-radius: 30px;
